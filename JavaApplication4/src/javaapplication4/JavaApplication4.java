@@ -19,6 +19,7 @@ public class JavaApplication4 {
     public static void main(String[] args) {
         System.out.println("Yupp hier bin ich!");
         System.out.println("Um: " + new Date());
+        System.out.println("On: " + System.getProperty("java.version"));
     }
     
 }
